@@ -10,11 +10,23 @@
 9. namespace trong TypeScript.
 10. sử dụng Generic trong TypeScript.
 
-# Chuyển string sang đối tượng
+# Chuyển string sang đối tượng "object"
 <code>const jsonString = '{"name": "Hello Name", "age": 42}';
 const jsonObject = JSON.parse(jsonString);
-
 console.log(jsonObject);
 console.log(jsonObject.name);
 console.log(jsonObject.age);
 </code>
+
+# Chuyển đối tượng sang string
+<code>const jsonString = '{"name": "Hello Name", "age": 42}';
+const jsonObject = JSON.parse(jsonString);
+console.log(jsonObject);
+console.log(jsonObject.name);
+console.log(jsonObject.age);
+</code>
+
+<br>
+Lợi ích của việc chuyển object sang string<br>
+rồi lại chuyển ngược string về object<br>
+là tạo ra biến mới không tham chiếu đến dữ liệu cũ.
