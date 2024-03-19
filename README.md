@@ -11,8 +11,8 @@
 10. sử dụng Generic trong TypeScript.
 
 # Chuyển string sang đối tượng "object"
-<code>const jsonString = '{"name": "Hello Name", "age": 42}';
-const jsonObject = JSON.parse(jsonString);
+<code>let jsonString = '{"name": "Hello Name", "age": 42}';
+let jsonObject = JSON.parse(jsonString);
 console.log(jsonObject);
 console.log(jsonObject.name);
 console.log(jsonObject.age);
