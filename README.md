@@ -19,11 +19,10 @@ console.log(jsonObject.age);
 </code>
 
 # Chuyển đối tượng sang string
-<code>const jsonString = '{"name": "Hello Name", "age": 42}';
-const jsonObject = JSON.parse(jsonString);
-console.log(jsonObject);
-console.log(jsonObject.name);
-console.log(jsonObject.age);
+<code>let obj = {name: "Hello Name", age: 42};
+let jsonString = JSON.stringify(obj);
+
+console.log(jsonString);
 </code>
 
 <br>
