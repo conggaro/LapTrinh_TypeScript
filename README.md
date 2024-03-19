@@ -21,7 +21,6 @@ console.log(jsonObject.age);
 # Chuyển đối tượng sang string
 <code>let obj = {name: "Hello Name", age: 42};
 let jsonString = JSON.stringify(obj);
-
 console.log(jsonString);
 </code>
 
