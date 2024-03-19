@@ -9,3 +9,12 @@
 8. interface trong lập trình hướng đối tượng TypeScript.
 9. namespace trong TypeScript.
 10. sử dụng Generic trong TypeScript.
+
+# Chuyển string sang đối tượng
+<code>const jsonString = '{"name": "Hello Name", "age": 42}';
+const jsonObject = JSON.parse(jsonString);
+
+console.log(jsonObject);
+console.log(jsonObject.name);
+console.log(jsonObject.age);
+</code>
