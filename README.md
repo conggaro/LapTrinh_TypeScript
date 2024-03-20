@@ -29,7 +29,13 @@ Lợi ích của việc chuyển object sang string<br>
 rồi lại chuyển ngược string về object<br>
 là tạo ra biến mới không tham chiếu đến dữ liệu cũ.
 
-# Ép kiểu số sang string có format
+# Ép kiểu number sang string có format
 <code>const number = 999999999;
 const formattedNumber = number.toLocaleString('en-US', { style: 'decimal' });
 console.log(formattedNumber); // Kết quả: '999,999,999'</code>
+
+# Ép kiểu string có format sang kiểu number
+<code>const formattedNumberString = '999,999,999';
+const number = parseInt(formattedNumberString.replace(/,/g, ''));
+console.log(number); // Kết quả: 999999999
+console.log(typeof number); // Kết quả: 'number'</code>
