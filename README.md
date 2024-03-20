@@ -39,3 +39,8 @@ console.log(formattedNumber); // Kết quả: '999,999,999'</code>
 const number = parseInt(formattedNumberString.replace(/,/g, ''));
 console.log(number); // Kết quả: 999999999
 console.log(typeof number); // Kết quả: 'number'</code>
+
+# Kiểm tra 1 biến khác "null" hoặc "undefined"
+<code>var x = null;
+if (!!x) console.log("is not null");
+else console.log("is null");</code>
