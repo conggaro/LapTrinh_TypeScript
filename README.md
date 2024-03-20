@@ -44,3 +44,7 @@ console.log(typeof number); // Kết quả: 'number'</code>
 <code>var x = null;
 if (!!x) console.log("is not null");
 else console.log("is null");</code>
+<br>
+<code>var x = undefined;
+if (!!x) console.log("is not undefined");
+else console.log("is undefined");</code>
