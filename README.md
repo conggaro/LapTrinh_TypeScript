@@ -32,5 +32,4 @@ là tạo ra biến mới không tham chiếu đến dữ liệu cũ.
 # Ép kiểu số sang string có format
 <code>const number = 999999999;
 const formattedNumber = number.toLocaleString('en-US', { style: 'decimal' });
-
 console.log(formattedNumber); // Kết quả: '999,999,999'</code>
