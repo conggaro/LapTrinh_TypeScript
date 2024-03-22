@@ -52,9 +52,7 @@ else console.log("is undefined");</code>
 # Tham chiếu trong Type Script và Java Script
 <code>const a = [1, 2, 3];
 a[0] = 99;
-
 const b = a;
 b[0] = 88;
-
 console.log(a);
 console.log(b);</code>
