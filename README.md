@@ -56,3 +56,11 @@ const b = a;
 b[0] = 88;
 console.log(a);    // Kết quả: a = [88, 2, 3]
 console.log(b);    // Kết quả: b = [88, 2, 3]</code>
+
+<br>
+<code>const x = { name: "n v a", age: 30 };
+x.name = "n v b";
+const y = x;
+y.name = "n v c";
+console.log(x);
+console.log(y);</code>
