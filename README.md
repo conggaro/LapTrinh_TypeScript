@@ -62,5 +62,5 @@ console.log(b);    // Kết quả: b = [88, 2, 3]</code>
 x.name = "n v b";
 const y = x;
 y.name = "n v c";
-console.log(x);
-console.log(y);</code>
+console.log(x);    // Kết quả: x = { name: 'n v c', age: 30 }
+console.log(y);    // Kết quả: y = { name: 'n v c', age: 30 }</code>
