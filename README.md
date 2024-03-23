@@ -69,24 +69,19 @@ console.log(y);    // Kết quả: y = { name: 'n v c', age: 30 }</code>
 <code>let date1 = new Date();
 console.log(date1);</code><br>
 
-<code>
-let date2 = new Date('2020-02-22T12:00:00');
+<code>let date2 = new Date('2020-02-22T12:00:00');
 console.log(date2);</code><br>
 
-<code>
-let date3 = new Date(2004, 1, 31, 0, 0, 0);
+<code>let date3 = new Date(2004, 1, 31, 0, 0, 0);
 console.log(date3);</code><br>
 
-<code>
-let day = date1.getDay();
+<code>let day = date1.getDay();
 let month = date1.getMonth();
 let year = date1.getFullYear();</code><br>
 
-<code>
-let hour = date1.getHours();
+<code>let hour = date1.getHours();
 let minute = date1.getMinutes();
 let second = date1.getSeconds();</code><br>
 
-<code>
-console.log(`${day}/${month}/${year} ${hour}:${minute}:${second}`);</code>
+<code>console.log(`${day}/${month}/${year} ${hour}:${minute}:${second}`);</code>
 </code>
