@@ -54,8 +54,9 @@ else console.log("is undefined");</code>
 a[0] = 99;
 const b = a;
 b[0] = 88;
-console.log(a);    // Kết quả: a = [88, 2, 3]
-console.log(b);    // Kết quả: b = [88, 2, 3]</code>
+a.push(25);
+console.log(a);    // Kết quả: a = [88, 2, 3, 25]
+console.log(b);    // Kết quả: b = [88, 2, 3, 25]</code>
 
 <br>
 <code>const x = { name: "n v a", age: 30 };
